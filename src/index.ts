@@ -1,1 +1,3 @@
-console.log('hello world!');
+import { sayHello } from '~/lib/utils';
+
+sayHello();
