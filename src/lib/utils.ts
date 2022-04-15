@@ -2,6 +2,6 @@
 // Utility functions
 //
 
-export function sayHello() {
-  console.log('hello world!');
+export function sayHello(name: string) {
+  console.log(`hello ${name}!`);
 }

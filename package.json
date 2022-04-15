@@ -7,14 +7,14 @@
     "typescript": "^4.6.3"
   },
   "devDependencies": {
-    "ts-node": "^10.7.0",
     "ts-node-dev": "^1.1.8",
+    "tsc-alias": "^1.6.6",
     "tsconfig-paths": "^3.14.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "build": "tsc && tsc-alias",
+    "start": "npm run build && node dist/index.js",
     "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts"
   },
   "author": "",

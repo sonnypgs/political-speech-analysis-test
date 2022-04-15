@@ -1,3 +1,3 @@
 import { sayHello } from '~/lib/utils';
 
-sayHello();
+sayHello('sonny');
