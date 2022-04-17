@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "csv-parse": "^5.0.4",
+    "date-fns": "^2.28.0",
     "dotenv": "^16.0.0",
     "dotenv-array": "0.0.5",
     "express": "^4.17.3",
