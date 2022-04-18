@@ -2,7 +2,6 @@ import axios from 'axios';
 import QueryString from 'qs';
 import { parse as parseDate } from 'date-fns';
 import { parse as parseCSV } from 'csv-parse/sync';
-// import { parse } from 'csv-parse/lib/sync';
 import {
   EvaluationResult,
   PoliticalSpeechDataRow,
