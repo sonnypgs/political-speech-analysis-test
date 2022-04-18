@@ -1,0 +1,45 @@
+{
+  "Peter Mueller": [
+    {
+      "topic": "Topic X",
+      "year": 2020,
+      "words": 1337
+    }
+  ],
+  "Bob Rossu": [
+    {
+      "topic": "Topic M",
+      "year": 1999,
+      "words": 525
+    },
+    {
+      "topic": "Topic N",
+      "year": 2001,
+      "words": 5025
+    }
+  ],
+  "John Doe": [
+    {
+      "topic": "Topic A",
+      "year": 2018,
+      "words": 2134
+    },
+    {
+      "topic": "Topic B",
+      "year": 2022,
+      "words": 900
+    },
+    {
+      "topic": "Topic C",
+      "year": 2022,
+      "words": 1872
+    }
+  ],
+  "Alice Wondersea": [
+    {
+      "topic": "Topic Y",
+      "year": 2022,
+      "words": 4242
+    }
+  ]
+}

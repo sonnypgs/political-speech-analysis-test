@@ -1,18 +1,12 @@
 import '~/init/dotenv';
-import express, { Request, Response, Express } from 'express';
+import server from '~/lib/server';
 
-const app: Express = express();
-const PORT = 3003;
+//
+// Run
+//
 
-const CSV_URLS = process.env.CSV_URLS;
-console.log({ CSV_URLS });
+const PORT = process.env.SERVER_PORT;
 
-app.use(express.static('public'));
-
-app.get('/', (req: Request, res: Response) => {
-  res.send('just testing');
-});
-
-app.listen(PORT, () => {
+server.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
