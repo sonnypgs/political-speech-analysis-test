@@ -3,7 +3,7 @@
 The following application has been implemented in TypeScript as part of a dev quiz for the company SCHWABEO. The app provides a `GET` API endpoint under `/evaluation` which accepts the URLs of `CSV` files by specifing a `url` parameter. An example call would be:
 
 ```
-http://localhost:3005/evaluation/?url=http://locahost:3005/csv/ps-1.csv&url=http://localhost:3005/csv/ps-2.csv
+http://localhost:3005/evaluation/?url=http://localhost:3005/csv/ps-1.csv&url=http://localhost:3005/csv/ps-2.csv
 ```
 
 The CSV files are parsed and then evaluated. During the evaluation three questions are being answered:
