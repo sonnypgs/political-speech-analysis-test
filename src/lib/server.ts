@@ -7,7 +7,7 @@ import {
 } from '~/lib/evaluation';
 
 //
-// Inititalize
+// Initialize
 //
 
 const server: Express = express();
