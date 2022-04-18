@@ -160,7 +160,7 @@ export function getSpeakerWithMostSpeechesForYear(
   const speakerCountsFiltered = speakerCountsSorted.filter((s) => s[1] > 0);
 
   if (speakerCountsFiltered?.length > 0) {
-    return speakerCountsSorted[0][0] as SpeakerName;
+    return speakerCountsFiltered[0][0] as SpeakerName;
   }
 
   return null;
@@ -197,7 +197,7 @@ export function getSpeakerWithMostTopicSpeeches(
   const speakerCountsFiltered = speakerCountsSorted.filter((s) => s[1] > 0);
 
   if (speakerCountsFiltered?.length > 0) {
-    return speakerCountsSorted[0][0] as SpeakerName;
+    return speakerCountsFiltered[0][0] as SpeakerName;
   }
 
   return null;
@@ -231,7 +231,7 @@ export function getSpeakerWithFewestWordsInTotal(
   const speakerCountsFiltered = speakerCountsSorted.filter((s) => s[1] > 0);
 
   if (speakerCountsFiltered?.length > 0) {
-    return speakerCountsSorted[0][0] as SpeakerName;
+    return speakerCountsFiltered[0][0] as SpeakerName;
   }
 
   return null;
