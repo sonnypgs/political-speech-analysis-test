@@ -2,6 +2,8 @@ import request from 'supertest';
 import '~/init/dotenv';
 import server from '~/lib/server';
 
+const app = server.listen(process.env.SERVER_PORT);
+
 let csvUrls: any = [];
 if (process.env.CSV_URLS) {
   const urls = process.env.CSV_URLS as string;
@@ -35,4 +37,8 @@ describe('API', () => {
       })
       .end(done);
   });
+});
+
+afterAll(() => {
+  app.close();
 });
